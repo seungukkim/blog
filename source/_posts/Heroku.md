@@ -13,11 +13,11 @@ Add .gitignore는 python으로 해준다.
 1. code . 으로 VS code 열고
 2. 가상환경 설정(virtualenv venv)⇒ 가상 환경 만들기
 
-![Untitled](source/images/Heroku/Untitled 2.png)
+![Untitled](/images/Heroku/Untitled 2.png)
 
 1. 가상환경 들어가기 source venv/Scripts/activate
 
-![Untitled](source/images/Heroku/Untitled 3.png)
+![Untitled](/images/Heroku/Untitled 3.png)
 
 1. pip freeze > requirements.txt 
 
@@ -25,21 +25,21 @@ Add .gitignore는 python으로 해준다.
 
 7-2. pip install gunicorn
 
-![Untitled](source/images/Heroku/Untitled 4.png)
+![Untitled](/images/Heroku/Untitled 4.png)
 
 1. export FLASK_APP = index
 
-![Untitled](source/images/Heroku/Untitled 5.png)
+![Untitled](/images/Heroku/Untitled 5.png)
 
 1. export FLASK_ENV=development
 
 1. export FLASK_App=app
 
-![Untitled](source/images/Heroku/Untitled 6.png)
+![Untitled](/images/Heroku/Untitled 6.png)
 
 1. 여기까지 했다면 flask run을 통해 실행이 되는 지를 확인한다. 
 
-![Untitled](source/images/Heroku/Untitled 7.png)
+![Untitled](/images/Heroku/Untitled 7.png)
 
 1. 확인 이후 python -V를 통해 파이썬의 버전을 확인하고(대문자 V이다.)
 2. heroku login을 입력하여 heroku에 로그인을 한다.
